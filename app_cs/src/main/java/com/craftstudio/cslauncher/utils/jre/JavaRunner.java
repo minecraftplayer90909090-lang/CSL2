@@ -211,7 +211,7 @@ public class JavaRunner {
             libPathBuilder.append(':').append(path);
         }
 
-        // extra lib folder (libgcc_s.so.1 yahan hona chahiye)
+        // extra lib folder for native libs kind of stuff idk imma look for it later buh bye
 String extraLibsDir = "/data/user/0/com.abhaythemaster.masterixplus.debug/files/agent";
 String ldLibPath = libPathBuilder.toString() + ":" + extraLibsDir;
 try {
