@@ -359,7 +359,7 @@ public final class BrandingPackGenerator {
 
     private static String marker(String stamp, ClientJarFacts facts, List<String> files) {
         JsonObject root = new JsonObject();
-        root.addProperty("owner", "CS Launcher Plus");
+        root.addProperty("owner", "Masterix Plus");
         root.addProperty("stamp", stamp);
         root.addProperty("generatorRevision", BrandingPack.GENERATOR_REVISION);
         root.addProperty("gameVersion", facts.versionId);

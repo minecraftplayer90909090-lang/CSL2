@@ -21,7 +21,7 @@
     <string name="home_downloading">Download ho raha hai</string>
     <string name="home_downloading_wait">Download shuru ho raha hai…</string>
     <string name="settings_hub_title">Settings</string>
-    <string name="settings_hub_subtitle">CS Launcher Plus ko apne hisaab se banao</string>
+    <string name="settings_hub_subtitle">Masterix Plus ko apne hisaab se banao</string>
     <string name="home_play">KHELO</string>
     <string name="home_card_browser_title">RESOURCES BROWSE KARO</string>
     <string name="home_card_browser_desc">Mods • Resource Packs • Shader Packs</string>
@@ -49,7 +49,7 @@
     <string name="login_online_username_hint">Username</string>
     <string name="login_online_login_label">Login</string>
     <string name="warning_remove_account">Yeh account hata diya jayega!</string>
-    <string name="error_fatal">CS Launcher Plus achanak crash ho gaya</string>
+    <string name="error_fatal">Masterix Plus achanak crash ho gaya</string>
     <string name="error_no_version">Koi version nahi!</string>
     <string name="error_show_more">Aur dikhao</string>
     <string name="error_show_less">Kam dikhao</string>
@@ -563,7 +563,7 @@
     <string name="lib_import_modpack">Import</string>
     <string name="lib_modpack_new_profile">Nayi profile</string>
     <string name="lib_clear_search">Search saaf karo</string>
-    <string name="st_subtitle">CS Launcher Plus ko apne style mein dhaalo</string>
+    <string name="st_subtitle">Masterix Plus ko apne style mein dhaalo</string>
     <string name="st_control_description">Touch controls, layouts aur behaviour</string>
     <string name="st_force_english_short">Original English text dikhao. Restart zaroori.</string>
     <string name="st_notification_short">Background downloads ke liye zaroori</string>
@@ -654,10 +654,10 @@
     <string name="about_legal_mojang">Mojang se koi sambandh nahi</string>
     <string name="about_footer">CRAFT STUDIO aur open source community ne ❤ se banaya.\nKhelne ke liye shukriya.</string>
     <string name="home_overflow_about_short">About</string>
-    <string name="st_about_title">CS Launcher Plus ke baare mein</string>
+    <string name="st_about_title">Masterix Plus ke baare mein</string>
     <string name="st_about_desc">Version, credits, open source licenses, Discord aur GitHub</string>
     <string name="policy_eyebrow">SHURU KARNE SE PEHLE</string>
-    <string name="policy_title_welcome">CS Launcher Plus mein swagat hai</string>
+    <string name="policy_title_welcome">Masterix Plus mein swagat hai</string>
     <string name="policy_title_read">Privacy &amp; Terms</string>
     <string name="policy_subtitle">Neeche Terms of Use aur Privacy Policy padho. Launcher use karne se pehle ek baar accept karna zaroori hai.</string>
     <string name="policy_subtitle_read">Yeh launcher tumhare data ke saath kya karta hai aur tum kis baat se sehmat ho — ek chhota, seedha summary.</string>
@@ -731,8 +731,8 @@
     <string name="ss_restarting">Restart ho raha hai…</string>
     <string name="ss_footnote">Custom folder chunne ke baad launcher ek baar restart hoga.</string>
     <string name="ss_err_not_writable">Is folder mein likh nahi sakte. Koi aur try karo.</string>
-    <string name="ss_err_not_empty">Yeh folder khaali nahi hai aur isme CS Launcher ka data bhi nahi hai. Khaali folder chuno, ya wahi folder jo pehle use kiya tha.</string>
-    <string name="ss_existing_data">Yahan CS Launcher ka purana data mila \u2014 tumhare profiles, worlds aur versions wapas use honge.</string>
+    <string name="ss_err_not_empty">Yeh folder khaali nahi hai aur isme Masterix Plus ka data bhi nahi hai. Khaali folder chuno, ya wahi folder jo pehle use kiya tha.</string>
+    <string name="ss_existing_data">Yahan Masterix Plus ka purana data mila \u2014 tumhare profiles, worlds aur versions wapas use honge.</string>
     <string name="ss_err_pick_first">Pehle folder chuno, ya app folder ke saath chalo.</string>
     <string name="auth_select_banner_sub">Login ka tareeka chuno</string>
     <string name="auth_select_section_signin">ISSE LOGIN KARO</string>
@@ -771,8 +771,8 @@
     <string name="ll_applying">Skin set ho rahi hai…</string>
     <string name="ll_err_fix">Pehle naam theek karo — rules dekho.</string>
     <string name="di_eyebrow">COMMUNITY</string>
-    <string name="di_title">CS Launcher Discord join karo</string>
-    <string name="di_body">Yahin CS Launcher players milte hain — join karne mein bas das second lagte hain.</string>
+    <string name="di_title">Masterix Plus Discord join karo</string>
+    <string name="di_body">Yahin Masterix Plus players milte hain — join karne mein bas das second lagte hain.</string>
     <string name="di_perk_support_line"><b>Turant help</b> — crash, mods, FPS: asli log jawab dete hain</string>
     <string name="di_perk_updates_line"><b>Early builds</b> — betas aur release notes sabse pehle yahin</string>
     <string name="di_perk_packs_line"><b>Pack sharing</b> — apna dikhao, ready-made utha lo</string>
@@ -782,7 +782,7 @@
     <string name="di_join">Discord join karo</string>
     <string name="di_youtube">YouTube par bhi</string>
     <string name="yt_eyebrow">YOUTUBE</string>
-    <string name="yt_title">CS Launcher ko YouTube par dekho</string>
+    <string name="yt_title">Masterix Plus ko YouTube par dekho</string>
     <string name="yt_body">Guides, modpack showcases aur har naya feature samjhaya hua — seedha team se.</string>
     <string name="yt_perk_1"><b>Tutorials</b> — setup, mods, shaders aur FPS tips step by step</string>
     <string name="yt_perk_2"><b>Naye features sabse pehle</b> — release se pehle dekho kya aa raha hai</string>
@@ -839,9 +839,9 @@
     <string name="policy_group_privacy">PRIVACY POLICY</string>
     <string name="policy_group_terms">TERMS OF USE</string>
     <string name="policy_t1_title">In terms ko maanna</string>
-    <string name="policy_t1_body">CS Launcher Plus install ya use karke tum in Terms of Use aur Privacy Policy se sehmat hote ho. Agar sehmat nahi ho to launcher use mat karo. Apne desh ke hisaab se Minecraft aur yeh app use karne ki umar honi chahiye, ya maata-pita / guardian ki permission.</string>
+    <string name="policy_t1_body">Masterix Plus install ya use karke tum in Terms of Use aur Privacy Policy se sehmat hote ho. Agar sehmat nahi ho to launcher use mat karo. Apne desh ke hisaab se Minecraft aur yeh app use karne ki umar honi chahiye, ya maata-pita / guardian ki permission.</string>
     <string name="policy_t2_title">License aur ownership</string>
-    <string name="policy_t2_body">CS Launcher Plus GNU LGPL v3 ke under free software hai aur open-source PojavLauncher family par bana hai. CRAFT STUDIO naam, logo aur artwork hamare hain. Minecraft Mojang Studios / Microsoft ka trademark hai; launcher unse juda, approved ya supported nahi hai.</string>
+    <string name="policy_t2_body">Masterix Plus GNU LGPL v3 ke under free software hai aur open-source PojavLauncher family par bana hai. CRAFT STUDIO naam, logo aur artwork hamare hain. Minecraft Mojang Studios / Microsoft ka trademark hai; launcher unse juda, approved ya supported nahi hai.</string>
     <string name="policy_t3_title">Sahi istemaal</string>
     <string name="policy_t3_body">Launcher sirf us game content ke saath use karo jiska tumhe haq hai. Tum ise game pirate karne, account check bypass karne, jahan mana ho wahan cheat karne, ya Minecraft EULA / kisi server, mod author ya platform ke rules todne ke liye use nahi karoge. Jo mods, packs aur worlds tum install karte ho unki zimmedari tumhari hai.</string>
     <string name="policy_t4_title">Koi warranty nahi, limited liability</string>
@@ -969,7 +969,7 @@ VPN permission: Android ek baar Virtual LAN VPN allow karne ko poochta hai. Ye s
     <string name="vlan_session_code">Session code</string>
     <string name="vlan_copy_code">Code copy karo</string>
     <string name="vlan_share_invite">Invitation share karo</string>
-    <string name="vlan_invite_text">%1$s ne tumhe CS Launcher Plus par Minecraft LAN world mein invite kiya hai.
+    <string name="vlan_invite_text">%1$s ne tumhe Masterix Plus par Minecraft LAN world mein invite kiya hai.
 Virtual LAN Multiplayer → Session Join karo kholo aur yeh code daalo:
 %2$s</string>
     <string name="vlan_copied_code">Session code copy ho gaya</string>
@@ -1102,7 +1102,7 @@ Virtual LAN Multiplayer → Session Join karo kholo aur yeh code daalo:
     <string name="branding_error_unsupported">CS Custom Experience ke liye Minecraft 1.21 ya naya chahiye. %1$s vanilla look par rahega.</string>
     <string name="branding_error_jar_missing">Game files abhi download nahi hui. Is version ke pehle launch par custom look taiyaar hoga.</string>
     <string name="branding_error_metadata">%1$s ki version information padh nahi paaye. Version dobara download karo ya Vanilla chuno.</string>
-    <string name="branding_error_assets">Launcher ki branding files missing hain. CS Launcher Plus dobara install karo.</string>
+    <string name="branding_error_assets">Launcher ki branding files missing hain. Masterix Plus dobara install karo.</string>
     <string name="branding_error_write">Is profile ke folder mein likh nahi paaye. Free storage check karke dobara try karo.</string>
     <string name="branding_error_verify">Pack likha gaya par verify nahi ho paaya. Is launch mein vanilla look use hoga.</string>
     <string name="branding_applied_toast">Minecraft ka Look update hua: %1$s</string>
@@ -1132,7 +1132,7 @@ Virtual LAN Multiplayer → Session Join karo kholo aur yeh code daalo:
     <string name="branding_mode_preview_custom">CS custom look ka preview</string>
     <string name="preference_category_updates">Updates</string>
     <string name="preference_check_updates_title">Updates check karo</string>
-    <string name="preference_check_updates_description">GitHub pe CS Launcher Plus ka naya build dhundo</string>
+    <string name="preference_check_updates_description">GitHub pe Masterix Plus ka naya build dhundo</string>
     <string name="preference_check_updates_summary_fmt">Installed: %1$s — GitHub check karne ke liye tap karo</string>
     <string name="preference_update_auto_title">Automatic check</string>
     <string name="preference_update_auto_description">Launcher shuru hone pe naye builds dhundo (zyada se zyada har 6 ghante)</string>
@@ -1159,7 +1159,7 @@ Virtual LAN Multiplayer → Session Join karo kholo aur yeh code daalo:
     <string name="upd_ready_detail">Android confirm karne ko bolega. Tumhare profiles, worlds aur settings waise hi rahenge.</string>
     <string name="upd_installer_open">Android installer khul raha hai…</string>
     <string name="upd_need_permission">Permission chahiye</string>
-    <string name="upd_need_permission_detail">CS Launcher Plus ko updates install karne ki permission do, phir yahan wapas aao.</string>
+    <string name="upd_need_permission_detail">Masterix Plus ko updates install karne ki permission do, phir yahan wapas aao.</string>
     <string name="upd_install_cancelled">Install cancel ho gaya — download kiya hua update baad ke liye rakha hai.</string>
     <string name="upd_install_failed_fmt">Install fail ho gaya. %1$s</string>
     <string name="upd_no_asset_fmt">Is release mein tumhare install ke liye file nahi hai (%1$s). GitHub se le sakte ho.</string>
@@ -1167,7 +1167,7 @@ Virtual LAN Multiplayer → Session Join karo kholo aur yeh code daalo:
     <string name="upd_checking_msg">GitHub se sabse naya build pooch rahe hain…</string>
     <string name="upd_current_fmt">Installed: %1$s</string>
     <string name="upd_up_to_date_title">Tum up to date ho</string>
-    <string name="upd_up_to_date_msg">%1$s hi CS Launcher Plus ka sabse naya build hai.</string>
+    <string name="upd_up_to_date_msg">%1$s hi Masterix Plus ka sabse naya build hai.</string>
     <string name="upd_none_published">Abhi tak koi update info publish nahi hui. Agli release ke baad dobara check karo.</string>
     <string name="upd_error_title">Update check fail ho gaya</string>
     <string name="upd_error_check_fmt">GitHub tak nahi pahunch paaye: %1$s. Launcher normal chalta rahega — baad mein try karo.</string>
@@ -1185,7 +1185,7 @@ Virtual LAN Multiplayer → Session Join karo kholo aur yeh code daalo:
     <string name="vlan_beta_body">Agar join kaam na kare ya kuch bhi na ho, toh humein logs bhejo — isse hum fix kar paate hain. Try karne ke baad Send logs dabao, Discord (ya koi bhi app) chuno aur file Craft Studio team ko bhejo. Isme kuch private nahi hota — sirf Virtual LAN status aur launcher log.</string>
     <string name="vlan_send_logs">Logs bhejo</string>
     <string name="vlan_diagnostics_copy">Diagnostics copy karo</string>
-    <string name="vlan_report_title">CS Launcher Plus — Virtual LAN report</string>
+    <string name="vlan_report_title">Masterix Plus — Virtual LAN report</string>
     <string name="vlan_report_failed">Report taiyaar nahi ho paayi</string>
     <string name="psl_preparing">Taiyaari ho rahi hai…</string>
     <string name="psl_version_list">Version list check ho rahi hai…</string>
@@ -1497,32 +1497,32 @@ time set day</string>
     <string name="pt_slot_late">Der raat</string>
     <!-- Official partners -->
     <string name="partner_badge_official">OFFICIAL PARTNER</string>
-    <string name="partner_cross_fmt">CS Launcher × %1$s</string>
+    <string name="partner_cross_fmt">Masterix Plus × %1$s</string>
     <string name="partner_full_name_fmt">%1$s · Official partnership</string>
     <string name="partner_benefits_eyebrow">EXCLUSIVE</string>
-    <string name="partner_benefits_title">CS Launcher users ke liye partnership benefits</string>
+    <string name="partner_benefits_title">Masterix Plus users ke liye partnership benefits</string>
     <string name="partner_standard_fmt">Normal cooldown: %1$s</string>
     <string name="partner_days">din</string>
     <string name="partner_link_failed">Link nahi khula. Discord ya browser install karke dobara try karo.</string>
     <string name="pn_back">Wapas</string>
     <string name="partner_optl_section_title">Official Partner – OPTL</string>
-    <string name="partner_optl_description">CS Launcher OPTL ka official launcher hai – players ke liye better aur zyada competitive PvP experience.</string>
+    <string name="partner_optl_description">Masterix Plus OPTL ka official launcher hai – players ke liye better aur zyada competitive PvP experience.</string>
     <string name="partner_optl_explore">OPTL dekho</string>
     <string name="partner_optl_benefit_cooldown">5-Din Tier Testing Cooldown</string>
-    <string name="partner_optl_benefit_cooldown_detail">CS Launcher users ko normal 7 din ki jagah sirf 5 din ka tier testing cooldown milta hai.</string>
+    <string name="partner_optl_benefit_cooldown_detail">Masterix Plus users ko normal 7 din ki jagah sirf 5 din ka tier testing cooldown milta hai.</string>
     <string name="partner_optl_benefit_recognition">Official OPTL launcher recognition</string>
-    <string name="partner_optl_benefit_recognition_detail">CS Launcher OPTL ka official launcher maana jata hai.</string>
+    <string name="partner_optl_benefit_recognition_detail">Masterix Plus OPTL ka official launcher maana jata hai.</string>
     <string name="partner_optl_benefit_role">Exclusive collaboration role</string>
-    <string name="partner_optl_benefit_role_detail">OPTL Discord par CS Launcher collaboration ka khaas role.</string>
+    <string name="partner_optl_benefit_role_detail">OPTL Discord par Masterix Plus collaboration ka khaas role.</string>
     <string name="partner_optl_benefit_ranks">Special server ranks</string>
-    <string name="partner_optl_benefit_ranks_detail">OPTL servers par CS Launcher players ke liye special ranks.</string>
+    <string name="partner_optl_benefit_ranks_detail">OPTL servers par Masterix Plus players ke liye special ranks.</string>
     <string name="partner_optl_benefit_community">OPTL competitive PvP community ka access</string>
     <string name="partner_optl_benefit_community_detail">Tier tests, events aur competitive Pojav PvP scene – sab ek jagah.</string>
     <string name="partner_optl_join">OFFICIAL OPTL DISCORD JOIN KARO</string>
     <string name="partner_optl_join_note">Exclusive collaboration perks aur recognition claim karne ke liye isi partnership announcement se join karo.</string>
     <string name="rb_err_restricted">Author ne is file ka third-party download allow nahi kiya. Ise launcher ke CurseForge page se lo.</string>
     <string name="partners_title">Official Partners</string>
-    <string name="partners_subtitle">CS Launcher ke official partner communities aur projects</string>
+    <string name="partners_subtitle">Masterix Plus ke official partner communities aur projects</string>
     <string name="partners_featured">FEATURED</string>
     <string name="partners_count_fmt">%1$d partner(s)</string>
     <string name="pm_title_launcher">Virtual LAN disconnect ke baad launcher band ho gaya</string>

@@ -227,7 +227,7 @@ public final class LocalYggdrasilServer {
     @NonNull
     private JsonObject metadata() {
         JsonObject meta = new JsonObject();
-        meta.addProperty("serverName", "CS Launcher Plus");
+        meta.addProperty("serverName", "Masterix Plus");
         meta.addProperty("implementationName", "CSLauncher-LocalYggdrasil");
         meta.addProperty("implementationVersion", "1.0");
         meta.addProperty("feature.non_email_login", true);
