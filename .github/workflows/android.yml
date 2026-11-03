@@ -1,6 +1,3 @@
-cd ~/CSL2
-git rm -f .github/workflows/android.yml
-cat > .github/workflows/build.yml << 'EOF'
 name: Build Masterix
 
 on:
@@ -159,8 +156,3 @@ jobs:
             out/CS-Launcher-Plus-release.apk
             out/CS-Launcher-Plus-release.md5
           fail_on_unmatched_files: false
-EOF
-
-git add -A
-git commit -m "Manual-only build workflow"
-git push
