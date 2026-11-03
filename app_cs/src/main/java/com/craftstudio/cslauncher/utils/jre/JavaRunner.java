@@ -211,12 +211,14 @@ public class JavaRunner {
             libPathBuilder.append(':').append(path);
         }
 
-        String ldLibPath = libPathBuilder.toString();
-        try {
-            Os.setenv("LD_LIBRARY_PATH", ldLibPath, true);
-        }catch (ErrnoException e) {
-            throw new RuntimeException(e);
-        }
+        // extra lib folder (libgcc_s.so.1 yahan hona chahiye)
+String extraLibsDir = "/data/user/0/com.abhaythemaster.masterixplus.debug/files/agent";
+String ldLibPath = libPathBuilder.toString() + ":" + extraLibsDir;
+try {
+    Os.setenv("LD_LIBRARY_PATH", ldLibPath, true);
+} catch (ErrnoException e) {
+    throw new RuntimeException(e);
+}
         JREUtils.setLdLibraryPath(ldLibPath);
     }
 
