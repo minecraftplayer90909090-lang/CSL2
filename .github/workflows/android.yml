@@ -1,21 +1,21 @@
-name: CS Launcher Plus CI
+cd ~/CSL2
+git rm -f .github/workflows/android.yml
+cat > .github/workflows/build.yml << 'EOF'
+name: Build Masterix
 
 on:
-  push:
-    branches: [main, master]
-    tags: ['v*']
   workflow_dispatch:
+    inputs:
+      publish_release:
+        description: "APK ko Releases me bhi daalna hai?"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
 
 env:
-  # Rebrand ke time sirf yahi naam badalna
-  APP_NAME: CS Launcher Plus
-
-concurrency:
-  group: build-${{ github.ref }}
-  cancel-in-progress: true
+  APP_NAME: Masterix
 
 jobs:
   build:
@@ -35,10 +35,9 @@ jobs:
         run: |
           ls
           if [ ! -d app_cs ]; then
-            echo "::error::app_cs folder nahi mila. Ye workflow asli CS Launcher repo ke liye hai (jisme app_cs aur scripts/ hon)."
+            echo "::error::app_cs folder nahi mila."
             exit 1
           fi
-          ls scripts || true
 
       - name: Get LTW
         uses: dawidd6/action-download-artifact@v6
@@ -114,24 +113,18 @@ jobs:
           mv app_cs/build/outputs/apk/full/pubRelease/app_cs-full-pubRelease.apk out/CS-Launcher-Plus-release.apk
           md5sum out/CS-Launcher-Plus-release.apk > out/CS-Launcher-Plus-release.md5
 
-      - name: Release notes + in-app update metadata
+      - name: Release notes
         run: |
           VERSION_NAME=$(grep -oP 'versionName "\K[^"]+' app_cs/build.gradle | head -1)
           echo "VERSION_NAME=${VERSION_NAME}" >> "$GITHUB_ENV"
           {
-            if [[ "${GITHUB_REF}" == refs/tags/v* ]]; then
-              echo "## ${APP_NAME} ${GITHUB_REF_NAME}"
-              echo ""
-              echo "Release build of ${GITHUB_SHA}."
-            else
-              echo "## ${APP_NAME} ${VERSION_NAME} - build ${GITHUB_RUN_NUMBER}"
-              echo ""
-              echo "Automated build of ${GITHUB_SHA} (${GITHUB_REF_NAME}), published by GitHub Actions."
-            fi
+            echo "## ${APP_NAME} ${VERSION_NAME} - build ${GITHUB_RUN_NUMBER}"
+            echo ""
+            echo "Manual build of ${GITHUB_SHA} (${GITHUB_REF_NAME})."
             echo "**app-debug-full.apk** is the one to install (includes the Java runtime)."
             echo ""
             echo "### What's new"
-            git log -15 --no-merges --pretty=format:'- %s' | sed -E 's/^- (Fix|Feat|Upd)\[([^]]*)\]: ?/- **\2:** /' || true
+            git log -15 --no-merges --pretty=format:'- %s' || true
             echo ""
             echo ""
             echo "<!-- cs-update-begin (read by the launcher's update checker, do not edit) -->"
@@ -150,8 +143,8 @@ jobs:
           path: out/*.apk
           if-no-files-found: error
 
-      - name: Publish rolling latest build (main branch)
-        if: github.event_name == 'push' && (github.ref_name == 'main' || github.ref_name == 'master')
+      - name: Publish to Releases (latest)
+        if: inputs.publish_release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
@@ -166,18 +159,8 @@ jobs:
             out/CS-Launcher-Plus-release.apk
             out/CS-Launcher-Plus-release.md5
           fail_on_unmatched_files: false
+EOF
 
-      - name: Release tagged build (v* tags)
-        if: startsWith(github.ref, 'refs/tags/v')
-        uses: softprops/action-gh-release@v2
-        with:
-          name: ${{ env.APP_NAME }} ${{ github.ref_name }}
-          body_path: out/release-body.md
-          files: |
-            out/app-debug-full.apk
-            out/app-debug-full.md5
-            out/app-debug-noruntime.apk
-            out/app-debug-noruntime.md5
-            out/CS-Launcher-Plus-release.apk
-            out/CS-Launcher-Plus-release.md5
-          fail_on_unmatched_files: false
+git add -A
+git commit -m "Manual-only build workflow"
+git push
