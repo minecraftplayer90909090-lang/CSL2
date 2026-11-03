@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- App name part -->
-    <string name="app_short_name">CS Launcher Plus</string>
+    <string name="app_short_name">TEST</string>
     <!-- Branding: CS Launcher Plus 1.4 by CRAFT STUDIO -->
-    <string name="brand_full_name">CS LAUNCHER PLUS 1.4</string>
-    <string name="brand_short_name">CS LAUNCHER PLUS</string>
+    <string name="brand_full_name">TEST</string>
+    <string name="brand_short_name">TEST</string>
     <string name="brand_version">1.4</string>
     <string name="brand_team_name">CRAFT STUDIO</string>
     <string name="brand_team_tag">by CRAFT STUDIO</string>
